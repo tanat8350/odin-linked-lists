@@ -1,6 +1,4 @@
-function node(value = null, next = null) {
-  return { value, next };
-}
+import node from './node.mjs';
 
 function linkedList() {
   let head = null;
